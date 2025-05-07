@@ -169,6 +169,7 @@ def RunInd(System="", Api=""):
             print()
             print("     Do you not want to save your logs? [y/n] ")
             print()
+            from Class import chatAI
             while True:
                 try:
                     prompt=input(">>> ")
@@ -206,6 +207,7 @@ def RunInd(System="", Api=""):
                             f.write(save)
                 except (KeyboardInterrupt, EOFError):
                     import os
+                    
                     os.system("clear")
                     print()
                     chatAI.ident()
