@@ -1,5 +1,6 @@
  #!/bin/bash
 
+mkdir Logs/
 echo "Apakah bahasa yang ingin kamu gunakan ?"
 echo "What language would you like to use ?"
 echo -n "[Eng/Ind]>>> "
