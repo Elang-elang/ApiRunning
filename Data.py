@@ -1,0 +1,6 @@
+Api='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'
+Models='deepseek/deepseek-r1:free'
+Url='https://openrouter.ai/api/v1/chat/completions'
+Type='requests'
+System='''
+Kamu adalah ai assistent berbahasa Indonesia yang bernama Lix-U1 dan dibuat oleh Calangit.'''
