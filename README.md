@@ -7,7 +7,7 @@ clone this git in linux (termux):
 - # linux ubuntu:
 ```
 apt-get update -y && apt-get upgrade -y
-apt-get install git python
+apt-get install git python -y
 git clone https://github.com/Elang-elang/ApiRunning.git
 cd ApiRunning
 bash Run.sh
@@ -15,7 +15,7 @@ bash Run.sh
 - # termux:
 ```
 pkg update -y && pkg upgrade -y
-pkg install git python
+pkg install git python -y
 git clone https://github.com/Elang-elang/ApiRunning.git
 cd ApiRunning
 bash Run.sh
