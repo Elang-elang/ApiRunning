@@ -18,7 +18,7 @@ Log:
     return save
 
 def line():
-    hasil=""""""
+    hasil=""
     while True:
         prompt = input("... ")
         if prompt == '\"\"\"':
@@ -50,7 +50,9 @@ def Check(prompt, Models, Api, Type, System, Url=""):
             print(f"Error karena: {str(e)}")
 
 def System_AI():
-    print("Masukan system untuk ai anda")
+    print()
+    print("     Masukan system untuk ai anda")
+    print()
     while True:
         prompt = input(">>> ")
         if not prompt:
@@ -63,6 +65,7 @@ def System_AI():
             with open(prompt, 'r') as f:
                 isi = f.read()
             return isi
+        return prompt
 
 def helpme():
     print()
