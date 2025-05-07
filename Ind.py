@@ -170,6 +170,7 @@ def RunInd(System="", Api=""):
             print()
             print("     Apakah Tidak Ingin Di Save Logs Anda ? [y/n] ")
             print()
+            from Class import chatAI
             while True:
                 try:
                     prompt=input(">>> ")
